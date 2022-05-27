@@ -1,0 +1,88 @@
+html{
+  behavior: smooth;
+}
+
+.box:hover {
+  border-top: 4px solid greenyellow;
+  border-bottom: 4px solid greenyellow;
+  padding: 1px 0;
+
+}
+
+#register {
+  border-color: white;
+  color: #fbfbfb;
+  background-color: rgb(47, 255, 0);
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px 35px;
+  width: 45%;
+  font-size: 18px;
+}
+
+#complains-near {
+  border-color: white;
+  padding: 15px 35px;
+  color: #fbfbfb;
+  background-color: rgb(0, 255, 8);
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-top: 50px;
+  width: 45%;
+  font-size: 18px;
+}
+
+@media (max-width: 560px) {
+  #register {
+    border-color: white;
+    color: #fbfbfb;
+    background-color: rgb(102, 255, 0);
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  #complains-near {
+    border-color: white;
+    padding: 15px 35px;
+    color: #fbfbfb;
+    background-color: rgb(102, 255, 0);
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 50px;
+    width: 100%;
+
+  }
+
+ 
+}
+
+#log-btn {
+  background-image: url("back.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#com-heading {
+  font-weight: 700;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first-complain {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
